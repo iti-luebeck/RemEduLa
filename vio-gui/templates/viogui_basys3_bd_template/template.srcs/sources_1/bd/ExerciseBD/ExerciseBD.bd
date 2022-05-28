@@ -1,0 +1,305 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x3AB292DBF996F152",
+      "device": "xc7a35tcpg236-1",
+      "name": "ExerciseBD",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.1",
+      "validated": "true"
+    },
+    "design_tree": {},
+    "ports": {
+      "BTNC": {
+        "direction": "I"
+      },
+      "BTND": {
+        "direction": "I"
+      },
+      "BTNL": {
+        "direction": "I"
+      },
+      "BTNR": {
+        "direction": "I"
+      },
+      "BTNU": {
+        "direction": "I"
+      },
+      "LD0": {
+        "direction": "O"
+      },
+      "LD1": {
+        "direction": "O"
+      },
+      "LD2": {
+        "direction": "O"
+      },
+      "LD3": {
+        "direction": "O"
+      },
+      "LD4": {
+        "direction": "O"
+      },
+      "LD5": {
+        "direction": "O"
+      },
+      "LD6": {
+        "direction": "O"
+      },
+      "LD7": {
+        "direction": "O"
+      },
+      "SW0": {
+        "direction": "I"
+      },
+      "SW1": {
+        "direction": "I"
+      },
+      "SW2": {
+        "direction": "I"
+      },
+      "SW3": {
+        "direction": "I"
+      },
+      "SW4": {
+        "direction": "I"
+      },
+      "SW5": {
+        "direction": "I"
+      },
+      "SW6": {
+        "direction": "I"
+      },
+      "SW7": {
+        "direction": "I"
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "ExerciseBD_CLK",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "SW8": {
+        "direction": "I"
+      },
+      "SW9": {
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "SW10": {
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "SW11": {
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "SW12": {
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "",
+            "value_src": "weak"
+          }
+        }
+      },
+      "SW13": {
+        "direction": "I"
+      },
+      "SW14": {
+        "direction": "I"
+      },
+      "SW15": {
+        "direction": "I"
+      },
+      "LD8": {
+        "direction": "O"
+      },
+      "LD9": {
+        "direction": "O"
+      },
+      "LD10": {
+        "direction": "O"
+      },
+      "LD11": {
+        "direction": "O"
+      },
+      "LD12": {
+        "direction": "O"
+      },
+      "LD13": {
+        "direction": "O"
+      },
+      "LD14": {
+        "direction": "O"
+      },
+      "LD15": {
+        "direction": "O"
+      },
+      "SEG0": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "SEG1": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "SEG2": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "SEG3": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "nets": {
+      "SW0_1": {
+        "ports": [
+          "SW0",
+          "LD0"
+        ]
+      },
+      "SW1_1": {
+        "ports": [
+          "SW1",
+          "LD1"
+        ]
+      },
+      "SW2_1": {
+        "ports": [
+          "SW2",
+          "LD2"
+        ]
+      },
+      "SW3_1": {
+        "ports": [
+          "SW3",
+          "LD3"
+        ]
+      },
+      "SW4_1": {
+        "ports": [
+          "SW4",
+          "LD4"
+        ]
+      },
+      "SW5_1": {
+        "ports": [
+          "SW5",
+          "LD5"
+        ]
+      },
+      "SW6_1": {
+        "ports": [
+          "SW6",
+          "LD6"
+        ]
+      },
+      "SW7_1": {
+        "ports": [
+          "SW7",
+          "LD7"
+        ]
+      },
+      "SW8_1": {
+        "ports": [
+          "SW8",
+          "LD8"
+        ]
+      },
+      "SW9_1": {
+        "ports": [
+          "SW9",
+          "SEG0"
+        ]
+      },
+      "SW10_1": {
+        "ports": [
+          "SW10",
+          "SEG1"
+        ]
+      },
+      "SW11_1": {
+        "ports": [
+          "SW11",
+          "SEG2"
+        ]
+      },
+      "SW12_1": {
+        "ports": [
+          "SW12",
+          "SEG3"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-419,-73",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port BTNC -pg 1 -lvl 0 -x -10 -y -20 -defaultsOSRD
+preplace port BTND -pg 1 -lvl 0 -x -10 -y 10 -defaultsOSRD
+preplace port BTNL -pg 1 -lvl 0 -x -10 -y 40 -defaultsOSRD
+preplace port BTNR -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port BTNU -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port LD0 -pg 1 -lvl 2 -x 410 -y -50 -defaultsOSRD
+preplace port LD1 -pg 1 -lvl 2 -x 410 -y -20 -defaultsOSRD
+preplace port LD2 -pg 1 -lvl 2 -x 410 -y 10 -defaultsOSRD
+preplace port LD3 -pg 1 -lvl 2 -x 410 -y 40 -defaultsOSRD
+preplace port LD4 -pg 1 -lvl 2 -x 410 -y 70 -defaultsOSRD
+preplace port LD5 -pg 1 -lvl 2 -x 410 -y 100 -defaultsOSRD
+preplace port LD6 -pg 1 -lvl 2 -x 410 -y 130 -defaultsOSRD
+preplace port LD7 -pg 1 -lvl 2 -x 410 -y 160 -defaultsOSRD
+preplace port SW0 -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port SW1 -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port SW2 -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace port SW3 -pg 1 -lvl 0 -x -10 -y 220 -defaultsOSRD
+preplace port SW4 -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace port SW5 -pg 1 -lvl 0 -x -10 -y 280 -defaultsOSRD
+preplace port SW6 -pg 1 -lvl 0 -x -10 -y 310 -defaultsOSRD
+preplace port SW7 -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port CLK -pg 1 -lvl 0 -x -10 -y -50 -defaultsOSRD
+levelinfo -pg 1 -10 110 410
+pagesize -pg 1 -db -bbox -sgen -100 -70 490 360
+"
+}
+0

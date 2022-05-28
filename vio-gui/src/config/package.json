@@ -1,0 +1,14 @@
+{
+    "name": "vio_gui",
+    "displayName": "VIO GUI",
+    "version": "1.0.0",
+    "description": "...",
+    "author": "Waiel Aljnabi <waiel.aljnabi@student.uni-luebeck.de>",
+    "license": "UNLICENSED",
+    "scripts": {
+        "start": "node viogui.js"
+    },
+    "dependencies": {
+        "serialport": "^9.2.8"
+    }
+}

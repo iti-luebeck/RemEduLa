@@ -1,0 +1,106 @@
+/* GoldenLayout */
+/** clear some styles **/
+.lm_dropTargetIndicator {
+    box-shadow: none;
+}
+.lm_header .lm_tabs {
+    height: 24px;
+}
+.lm_header .lm_controls {
+    right: 0px;
+}
+.lm_header .lm_tab {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: none;
+}
+.lm_header .lm_tab.lm_active {
+    padding-bottom: 5px;
+    box-shadow: none;
+}
+.lm_header .lm_tabdropdown_list {
+    top: 20px;
+    right: 0px;
+}
+
+/** base colors **/
+.lm_goldenlayout {
+    background: transparent;
+}
+.lm_header, .lm_selected .lm_header {
+    background: transparent;
+}
+.lm_header .lm_controls {
+    background: #ffffff;
+}
+.lm_header .lm_tab {
+    background: #c0c0c0;
+    color: #202020;
+}
+.lm_header .lm_tab:hover {
+    background: #c8c8c8;
+    color: #202020;
+}
+.lm_header .lm_tab.lm_active {
+    background: #ffffff;
+    color: #202020;
+}
+.lm_content {
+    background: #ffffff;
+}
+.lm_splitter,
+.lm_splitter:hover,
+.lm_splitter.lm_dragging {
+    background: #888;
+}
+.lm_dropTargetIndicator {
+    background: rgba(10,10,10,0.1);
+}
+.lm_header .lm_controls .lm_tabdropdown:before {
+    color: #444444;
+}
+.lm_header .lm_tabdropdown_list {
+    border: #888 1px solid;
+}
+
+/** content specific styles **/
+.lm_content > div {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.lm_content .modulesContainer {
+    position: relative;
+    width: 100%;
+}
+
+.lm_content .consoleContainer {
+    padding: 12px 32px 32px 20px;
+    /*color: white;*/
+    font-family: Consolas, 'Courier New', Courier, monospace;
+    font-size: 14px;
+    /*font-weight: 300;*/
+}
+
+.lm_content .cameraContainer {
+    overflow: hidden;
+}
+.lm_content .cameraContainer canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.lm_header .lm_tab .lm_custom_icon {
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: -2px -4px 0px 4px;
+}
+.lm_header .lm_tab .lm_custom_icon img {
+    vertical-align: unset;
+}

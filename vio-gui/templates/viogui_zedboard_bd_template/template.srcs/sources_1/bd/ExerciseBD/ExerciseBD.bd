@@ -1,0 +1,100 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x774782C1CA68F3D",
+      "device": "xc7z020clg484-1",
+      "name": "ExerciseBD",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1",
+      "validated": "true"
+    },
+    "design_tree": {},
+    "ports": {
+      "BTNC": {
+        "direction": "I"
+      },
+      "BTND": {
+        "direction": "I"
+      },
+      "BTNL": {
+        "direction": "I"
+      },
+      "BTNR": {
+        "direction": "I"
+      },
+      "BTNU": {
+        "direction": "I"
+      },
+      "LD0": {
+        "direction": "O"
+      },
+      "LD1": {
+        "direction": "O"
+      },
+      "LD2": {
+        "direction": "O"
+      },
+      "LD3": {
+        "direction": "O"
+      },
+      "LD4": {
+        "direction": "O"
+      },
+      "LD5": {
+        "direction": "O"
+      },
+      "LD6": {
+        "direction": "O"
+      },
+      "LD7": {
+        "direction": "O"
+      },
+      "SW0": {
+        "direction": "I"
+      },
+      "SW1": {
+        "direction": "I"
+      },
+      "SW2": {
+        "direction": "I"
+      },
+      "SW3": {
+        "direction": "I"
+      },
+      "SW4": {
+        "direction": "I"
+      },
+      "SW5": {
+        "direction": "I"
+      },
+      "SW6": {
+        "direction": "I"
+      },
+      "SW7": {
+        "direction": "I"
+      },
+      "CLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "ExerciseBD_CLK",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      }
+    }
+  }
+}

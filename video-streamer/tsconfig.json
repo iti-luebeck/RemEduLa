@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ESNext",
+        
+        // "alwaysStrict": true,
+        // "noImplicitAny": true,
+        // "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "downlevelIteration": true,
+        "removeComments": true,
+
+        "lib": [
+            "DOM",
+            "ES2015", 
+            "ES2017.String",
+            "ES2019.Array"
+        ],
+        "typeRoots": [
+            "./src/ts/gui/@types",
+            "./src/ts/proxy/@types",
+            "./node_modules/@types"
+        ],
+
+        "outDir": "./build/",
+        // "sourceMap": true
+    },
+    "include": [
+        "./src/ts/**/*.ts"
+    ]
+}

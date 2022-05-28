@@ -1,0 +1,67 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.971642",
+   "Default View_TopLeft":"-424,-70",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port BTNC -pg 1 -lvl 0 -x -10 -y -20 -defaultsOSRD
+preplace port BTND -pg 1 -lvl 0 -x -10 -y 10 -defaultsOSRD
+preplace port BTNL -pg 1 -lvl 0 -x -10 -y 40 -defaultsOSRD
+preplace port BTNR -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port BTNU -pg 1 -lvl 0 -x -10 -y 100 -defaultsOSRD
+preplace port LD0 -pg 1 -lvl 1 -x 410 -y -60 -defaultsOSRD
+preplace port LD1 -pg 1 -lvl 1 -x 410 -y -30 -defaultsOSRD
+preplace port LD2 -pg 1 -lvl 1 -x 410 -y 0 -defaultsOSRD
+preplace port LD3 -pg 1 -lvl 1 -x 410 -y 30 -defaultsOSRD
+preplace port LD4 -pg 1 -lvl 1 -x 410 -y 60 -defaultsOSRD
+preplace port LD5 -pg 1 -lvl 1 -x 410 -y 90 -defaultsOSRD
+preplace port LD6 -pg 1 -lvl 1 -x 410 -y 120 -defaultsOSRD
+preplace port LD7 -pg 1 -lvl 1 -x 410 -y 150 -defaultsOSRD
+preplace port SW0 -pg 1 -lvl 0 -x -10 -y 130 -defaultsOSRD
+preplace port SW1 -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port SW2 -pg 1 -lvl 0 -x -10 -y 190 -defaultsOSRD
+preplace port SW3 -pg 1 -lvl 0 -x -10 -y 220 -defaultsOSRD
+preplace port SW4 -pg 1 -lvl 0 -x -10 -y 250 -defaultsOSRD
+preplace port SW5 -pg 1 -lvl 0 -x -10 -y 280 -defaultsOSRD
+preplace port SW6 -pg 1 -lvl 0 -x -10 -y 310 -defaultsOSRD
+preplace port SW7 -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port CLK -pg 1 -lvl 0 -x -10 -y -50 -defaultsOSRD
+preplace port SW8 -pg 1 -lvl 0 -x -10 -y 370 -defaultsOSRD
+preplace port SW9 -pg 1 -lvl 0 -x -10 -y 400 -defaultsOSRD
+preplace port SW10 -pg 1 -lvl 0 -x -10 -y 430 -defaultsOSRD
+preplace port SW11 -pg 1 -lvl 0 -x -10 -y 460 -defaultsOSRD
+preplace port SW12 -pg 1 -lvl 0 -x -10 -y 490 -defaultsOSRD
+preplace port SW13 -pg 1 -lvl 0 -x -10 -y 520 -defaultsOSRD
+preplace port SW14 -pg 1 -lvl 0 -x -10 -y 550 -defaultsOSRD
+preplace port SW15 -pg 1 -lvl 0 -x -10 -y 580 -defaultsOSRD
+preplace port LD8 -pg 1 -lvl 1 -x 410 -y 180 -defaultsOSRD
+preplace port LD9 -pg 1 -lvl 1 -x 410 -y 210 -defaultsOSRD
+preplace port LD10 -pg 1 -lvl 1 -x 410 -y 240 -defaultsOSRD
+preplace port LD11 -pg 1 -lvl 1 -x 410 -y 270 -defaultsOSRD
+preplace port LD12 -pg 1 -lvl 1 -x 410 -y 300 -defaultsOSRD
+preplace port LD13 -pg 1 -lvl 1 -x 410 -y 330 -defaultsOSRD
+preplace port LD14 -pg 1 -lvl 1 -x 410 -y 360 -defaultsOSRD
+preplace port LD15 -pg 1 -lvl 1 -x 410 -y 390 -defaultsOSRD
+preplace portBus SEG0 -pg 1 -lvl 1 -x 410 -y 420 -defaultsOSRD
+preplace portBus SEG1 -pg 1 -lvl 1 -x 410 -y 450 -defaultsOSRD
+preplace portBus SEG2 -pg 1 -lvl 1 -x 410 -y 480 -defaultsOSRD
+preplace portBus SEG3 -pg 1 -lvl 1 -x 410 -y 510 -defaultsOSRD
+preplace netloc SW0_1 1 0 1 10 -60n
+preplace netloc SW1_1 1 0 1 20 -30n
+preplace netloc SW2_1 1 0 1 30 0n
+preplace netloc SW3_1 1 0 1 40 30n
+preplace netloc SW4_1 1 0 1 50 60n
+preplace netloc SW5_1 1 0 1 60 90n
+preplace netloc SW6_1 1 0 1 70 120n
+preplace netloc SW7_1 1 0 1 80 150n
+preplace netloc SW8_1 1 0 1 90 180n
+preplace netloc SW9_1 1 0 1 50 400n
+preplace netloc SW10_1 1 0 1 50 430n
+preplace netloc SW11_1 1 0 1 50 460n
+preplace netloc SW12_1 1 0 1 50 490n
+levelinfo -pg 1 -10 410
+pagesize -pg 1 -db -bbox -sgen -100 -100 520 600
+"
+}
+0

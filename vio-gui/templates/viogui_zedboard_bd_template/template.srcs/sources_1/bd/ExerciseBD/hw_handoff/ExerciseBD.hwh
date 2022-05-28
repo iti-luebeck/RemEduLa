@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Feb  4 15:16:49 2021" VIVADOVERSION="2019.1">
+
+  <SYSTEMINFO ARCH="zynq" BOARD="em.avnet.com:zed:part0:1.4" DEVICE="7z020" NAME="ExerciseBD" PACKAGE="clg484" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="BTNC" SIGIS="undef"/>
+    <PORT DIR="I" NAME="BTND" SIGIS="undef"/>
+    <PORT DIR="I" NAME="BTNL" SIGIS="undef"/>
+    <PORT DIR="I" NAME="BTNR" SIGIS="undef"/>
+    <PORT DIR="I" NAME="BTNU" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD0" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD1" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD2" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD3" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD4" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD5" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD6" SIGIS="undef"/>
+    <PORT DIR="O" NAME="LD7" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW0" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW1" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW2" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW3" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW4" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW5" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW6" SIGIS="undef"/>
+    <PORT DIR="I" NAME="SW7" SIGIS="undef"/>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="CLK" SIGIS="clk"/>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES/>
+
+</EDKSYSTEM>
