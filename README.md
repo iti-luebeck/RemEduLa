@@ -12,7 +12,6 @@ The Remote Education Lab consists of six components:
 - The camera live-view of each Basys3 carrier-board, which allows an interaction similar to on-site development. The camera system also sends the streams to the web server. 
 - The web server implements the VIO GUI, which is the web interface to control and monitor the FPGAs remotely. Moreover, it can embed the streams of the camera and the video capture.
 ![RemEduLa Rack Overview](https://github.com/iti-luebeck/RemEduLa/blob/main/CAD/Renderings/lq/system-overview-c.png?raw=true)
-![RemEduLa Board Carriers](https://github.com/iti-luebeck/RemEduLa/blob/main/figures/board-carriers.png?raw=true)
 ### Rack Components
 RemEduLa is a modular rack-based system consisting of various carrier-boards addressing different purposes. There are three different types of carrier boards: 
 - The development board carriers house multiple FPGAs of each kind. In our case, we are using three different carriers for Basys3, ZedBoard, and PYNQ development boards. 
